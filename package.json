@@ -1,0 +1,32 @@
+{
+  "name": "follodrobe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.3.14",
+  "scripts": {
+    "dev": "bun scripts/dev.ts",
+    "server:dev": "bun --watch server/src/index.ts",
+    "client:dev": "vite --host 127.0.0.1 --config client/vite.config.ts",
+    "seed": "bun server/src/seed.ts",
+    "typecheck": "bunx tsc --noEmit",
+    "build": "bunx tsc --noEmit && vite build --config client/vite.config.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "hono": "latest",
+    "lucide-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "3.4.17",
+    "typescript": "latest"
+  }
+}
