@@ -1,2 +1,2 @@
-# Follodrobe - Turn the brands you follow into a closet you can shop.
+# Follodrobe - Brands you follow --> closet you can shop.
 Follodrobe transforms the clothing brands you already follow on Instagram into a single, beautifully organized digital closet. Instead of jumping between dozens of bio links, Follodrobe pulls together each brand's latest pieces — shirts, pants, shoes, and more — complete with prices, images, and direct purchase links, all in one place.
